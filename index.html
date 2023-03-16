@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>IL MIO PORTFOLIO</title>
+</head>
+<body>
+	<header>
+		<div>
+			<h1>Hello,</h1>
+			<img src="assets/SelfMemoji.png" margin-right:20px>
+			<h1>I am <strong>Davide.</strong></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about" src=assets/chisono.png>Chi sono</a></li>
+			<li><a href="#projects">I miei progetti</a></li>
+			<li><a href="#contact">Contattami</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="about">
+			<h2>Chi sono</h2>
+			<p>Qui puoi scrivere una breve descrizione su di te e sulle tue competenze.</p>
+		</section>
+		<section id="projects">
+			<h2>I miei progetti</h2>
+			<ul>
+				<li>
+					<h3>Nome del progetto</h3>
+					<p>Qui puoi scrivere una breve descrizione del progetto e includere un'immagine di anteprima.</p>
+					<a href="#">Link al progetto su GitHub</a>
+				</li>
+				<!-- Ripeti questo blocco per ogni progetto che desideri includere -->
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contattami</h2>
+			<form>
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Messaggio:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Invia</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © Il mio Portfolio
+	</footer>
+</body>
+</html>
+
